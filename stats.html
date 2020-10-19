@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hypixel API</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Hypixel.css">
+    <link rel="icon" href="steve.jpg" type="image/x-icon" size="16x16 32x32">
+    <script src="hypixelAPI.js"></script>
+<body>
+    <header>
+        <div id="search_user">
+            <input placeholder="Press that button ------------------------>" type="text" id="inp_search_user">
+            <a href="#" id="btn_search_user" onclick="insertData()"></a>
+        </div>
+        <a href="donate.html" style="position:absolute;left:0;">Donate</a>
+    </header>
+
+    <div class="wrapper">
+        <div class="playerName">
+            <img src="https://crafatar.com/renders/body/c06f89064c8a49119c29ea1dbd1aab82" id="headDisplay">
+            <h1 id="playerName"></h1>
+        </div>
+        <div class="mainStats" id="mainStats">
+            <div class="bedWars">
+                <h2>BedWars</h2>
+                <div class="start">
+                    <div class="card">
+                        <h2>Bedwars Coins</h2>
+                        <p id="bedWarsCoins">0</p>
+                        <img src="coin.png">
+                    </div>
+                    <div class="card">
+                        <h2>Bedwars Kills</h2>
+                        <p id="bedWarsKills">0</p>
+                        <img src="kill.png">
+                    </div>
+                    <div class="card">
+                        <h2>Bedwars Deaths</h2>
+                        <p id="bedWarsDeaths">0</p>
+                        <img src="death.png">
+                    </div>
+                </div>
+            </div>
+            <div class="skyWars">
+                <h2>SkyWars</h2>
+                <div class="start">
+                    <div class="card">
+                        <h2>Skywars Coins</h2>
+                        <p id="skyWarsCoins">0</p>
+                        <img src="coin.png">
+                    </div>
+                    <div class="card">
+                        <h2>Skywars Kills</h2>
+                        <p id="skyWarsKills">0</p>
+                        <img src="kill.png">
+                    </div>
+                    <div class="card">
+                        <h2>Skywars Deaths</h2>
+                        <p id="skyWarsDeaths">0</p>
+                        <img src="death.png">
+                    </div>
+                </div>
+            </div>
+            <div class="murderMystery">
+                <h2>Murder Mystery</h2>
+                <div class="start">
+                    <div class="card">
+                        <h2>Murder Mystery Coins</h2>
+                        <p id="murderMysteryCoins">0</p>
+                        <img src="coin.png">
+                    </div>
+                    <div class="card">
+                        <h2>Murder Mystery Kills</h2>
+                        <p id="murderMysteryKills">0</p>
+                        <img src="kill.png">
+                    </div>
+                    <div class="card">
+                        <h2>Murder Mystery Deaths</h2>
+                        <p id="murderMysteryDeaths">0</p>
+                        <img src="death.png">
+                    </div>
+                </div>
+            </div>
+            <div class="hungerGames">
+                <h2>Blitz Survival Games</h2>
+                <div class="start">
+                    <div class="card">
+                        <h2>Blitz Survival Games Coins</h2>
+                        <p id="hungerGamesCoins">0</p>
+                        <img src="coin.png">
+                    </div>
+                    <div class="card">
+                        <h2>Blitz Survival Games Deaths</h2>
+                        <p id="hungerGamesDeaths">0</p>
+                        <img src="death.png">
+                    </div>
+                    <div class="card">
+                        <h2>Blitz Survival Games Wins</h2>
+                        <p id="hungerGamesWins">0</p>
+                        <img src="win.gif">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</head>
+</html>
+
