@@ -90,7 +90,6 @@ body .main {
     color: white;
     font-size: 450%;
     text-decoration: underline;
-    margin-bottom: 150px
 }
 #mainStats {
     display: none;
@@ -101,16 +100,28 @@ body .main {
 }
 .mainStats > div > h2 {
     color: white;
-    font-size: 400%;
+    font-size: 450%;
 }
 p {
-    font-size: 150%;
+    font-size: 200%;
     font-weight: bold;
 }
 .start {
     display: flex;
+    justify-content: center;
 }
 
-.bedWars, .skyWars, .murderMystery, .hungerGames{
-    margin-bottom: 300px
+.level {
+    position: relative;
+    top: 60px;
+    font-size: 500%;
+    background: rgba(128, 128, 128, 0.2);
+}
+
+.startSkyblock {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 50%
 }
